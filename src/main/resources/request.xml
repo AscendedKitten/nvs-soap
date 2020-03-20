@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://localhost:8080/countries">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:getCountryGrowthComparisonRequest>
+            <gs:nameCountry1>Spain</gs:nameCountry1>
+			<gs:nameCountry2>United Kingdom</gs:nameCountry2>
+			<gs:years>5</gs:years>
+        </gs:getCountryGrowthComparisonRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
