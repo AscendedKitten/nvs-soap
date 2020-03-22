@@ -8,8 +8,6 @@
 
 package at.spengergasse.xml;
 
-import localhost._8080.countries.Country;
-
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -51,7 +49,7 @@ public class GetCountryGrowthComparisonResponse {
      * 
      * @return
      *     possible object is
-     *     {@link Country }
+     *     {@link CountryXML }
      *     
      */
     public CountryXML getWinner() {
@@ -63,7 +61,7 @@ public class GetCountryGrowthComparisonResponse {
      * 
      * @param value
      *     allowed object is
-     *     {@link Country }
+     *     {@link CountryXML }
      *     
      */
     public void setWinner(CountryXML value) {
